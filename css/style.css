@@ -20,12 +20,12 @@ h2 {
 
 /* 본문 스타일 */
 body {
-  background: url("../images/pattern-background-desktop.svg") no-repeat 0 0; 
+  background: url("../images/pattern-background-desktop.svg") no-repeat center top / 100% ; 
   font-size: 16px;
   font-family: "Red Hat Display", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   background-color: hsl(225, 100%, 94%);
   display: flex;
-  flex-direction: column;
+  flex-direction: row nowrap;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -37,6 +37,11 @@ body {
   overflow: hidden;
   /* background-color: pink; */
   background-color: #fff;
+  box-shadow: 15px 30px 15px -5px rgba(0, 0, 0, 0.1);
+}
+.order img {
+  display: inline-block;
+  width: 100%;
 }
 
 .order-content {
@@ -116,3 +121,20 @@ body {
   cursor: pointer;
   font-weight: 700;
 }
+
+/* .btn-pay:hover .order img  {
+  display: none;
+} */
+
+@media (max-width: 768px) {
+  .order {
+    height: 80vh;
+    margin: 5%;
+  }
+}
+
+/* @media (min-width: 1440px) { */
+  /* body { */
+    /* background-color: blue; */
+  /* } */
+/* } */
