@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/order-summary-component-7Rwah4X1pw)
 - Live Site URL: [Add live site URL here](https://order-summary-component-hyunwlee.netlify.app/)
 
 ## My process
@@ -49,4 +49,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@HyunWooLee](https://www.frontendmentor.io/profile/hyunwlee)
+- Frontend Mentor - [@HyunWooLee](https://www.frontendmentor.io/profile/hyunwlee-dev)
